@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>morningtrain FE Challenge C#1</title>
+	<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	
+</head>
+<body>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close"><img src="img/close.png" style="height:20px;width:20px;"></span>
+    <a class="prev" onclick="prevModal(event)"><span><img src="img/prev.png" style="height:40px;width:40px;"></span></a>
+    <div id="content">
+    	<img id="img" src="" alt="">
+    	<p id="par">hey</p>
+    </div>
+    <a class="next" onclick="nextModal(event)"><span><img src="img/next.png" style="height:40px;width:40px;"></span></a>
+  </div>
+</div>
+
+<div class="container">
+	<div class="title"><h1>morningtrain</h1></div>
+		<div class="subtitle">
+			<h2>Frontend Challenge</h2>
+			<h3><a href="https://morningtrain.dk/wp-content/themes/mtt-wordpress-theme/assets/challenges/frontend.pdf" target="_blank" rel="noopener noreferrer">Case #1</a></h3>
+		</div>
+	
+	<div class="applicant"><h4>by Mariann Szücs</h4></div>
+	<div class="row">
+		<div class="column" id="0""> <!--  -->
+			<a onclick="openModal(event)"><img class="thumbnail" src="img/image0.jpg" alt="image0"></a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisl velit, vulputate quis turpis ut, iaculis molestie tortor. Donec non sollicitudin nisi, porta sollicitudin purus. Aenean in odio libero. Aliquam in est bibendum lectus fermentum condimentum auctor in nibh. Fusce quis erat sem. Etiam eleifend auctor urna eget elementum. Fusce ullamcorper posuere ligula, quis fermentum neque eleifend suscipit.</p>
+		</div>
+		<div class="column" id="1">
+			<a onclick="openModal(event)"><img class="thumbnail" src="img/image1.jpg" alt="image1"></a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisl velit, vulputate quis turpis ut, iaculis molestie tortor. Donec non sollicitudin nisi, porta sollicitudin purus. Aenean in odio libero. Aliquam in est bibendum lectus fermentum condimentum auctor in nibh. Fusce quis erat sem.</p>
+		</div>
+		<div class="column" id="2">
+			<a onclick="openModal(event)"><img class="thumbnail" src="img/image2.jpg" alt="image2"></a>
+			<p>Aenean in odio libero. Aliquam in est bibendum lectus fermentum condimentum auctor in nibh. Fusce quis erat sem. Etiam eleifend auctor urna eget elementum. Fusce ullamcorper posuere ligula, quis fermentum neque eleifend suscipit. Fusce ut est varius, porttitor mauris ac, finibus ipsum. </p>
+		</div>
+		<div class="column" id="3">
+			<a onclick="openModal(event)"><img class="thumbnail" src="img/image3.jpg" alt="image3"></a>
+			<p>Ut nisl velit, vulputate quis turpis ut, iaculis molestie tortor. Donec non sollicitudin nisi, porta sollicitudin purus. Aenean in odio libero. Aliquam in est bibendum lectus fermentum condimentum auctor in nibh. Fusce quis erat sem. Etiam eleifend auctor urna eget elementum. Fusce ullamcorper posuere ligula, quis fermentum neque eleifend suscipit. Fusce ut est varius, porttitor mauris ac, finibus ipsum.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column" id="4">
+			<a onclick="openModal(event)"><img class="thumbnail" src="img/image4.jpg" alt="image4"></a>
+			<p>Ut nisl velit, vulputate quis turpis ut, iaculis molestie tortor. Donec non sollicitudin nisi, porta sollicitudin purus. Aenean in odio libero.</p>
+		</div>
+		<div class="column" id="5">
+			<a onclick="openModal(event)"><img class="thumbnail" src="img/image5.jpg" alt="image5"></a>
+			<p>Aliquam in est bibendum lectus fermentum condimentum auctor in nibh. Fusce quis erat sem. Etiam eleifend auctor urna eget elementum.</p>
+		</div>
+		<div class="column" id="6">
+			<a onclick="openModal(event)"><img class="thumbnail" src="img/image6.jpg" alt="image6"></a>
+			<p>Aliquam in est bibendum lectus fermentum condimentum auctor in nibh. Fusce quis erat sem. Etiam eleifend auctor urna eget elementum. Fusce ullamcorper posuere ligula, quis fermentum neque eleifend suscipit. Fusce ut est varius, porttitor mauris ac, finibus ipsum.</p>
+		</div>
+		<div class="column" id="7">
+			<a onclick="openModal(event)"><img class="thumbnail" src="img/image7.jpg" alt="image7"></a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisl velit, vulputate quis turpis ut, iaculis molestie tortor. Donec non sollicitudin nisi, porta sollicitudin purus. Aenean in odio libero. Aliquam in est bibendum lectus fermentum condimentum auctor in nibh.</p>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
